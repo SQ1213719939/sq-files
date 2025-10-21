@@ -59,15 +59,15 @@ git config --global user.email "1213719939@qq.com"
 git config --global user.name "SQ1213719939"
 git add README.md examples/
 git status
-git commit -m "节点分类示例代码"
-git remote set-url origin git@github.com:SQ1213719939/gnn-notes.git
+git commit -m ""
+git remote add origin git@github.com:SQ1213719939/gnn-notes.git
 git push -u origin master
 
 （2）后续：
 cd gnn-notes
 git add README.md examples/
 git status
-git commit -m "节点分类示例代码"
+git commit -m ""
 git pull origin master  # 新加内容必须先从远程获取内容，与本地内容合并，在没有冲突时，会自动合并。
 git push
 
