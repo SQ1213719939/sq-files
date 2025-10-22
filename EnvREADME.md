@@ -2,7 +2,7 @@
 
 ## 一、环境
 
-（1）工位：198439812
+（1）工位：
 
 - py310
   - python=3.10.18, pytorch=2.8.0+cu128
@@ -12,7 +12,7 @@
   - python=3.8.20, pytorch=2.4.1+cu124
   - pip install torch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 --index-url https://download.pytorch.org/whl/cu124
 
-（2）服务器：343813000
+（2）服务器：
 
 - py310
   - python=3.10.18, pytorch=2.7.1+cu118
