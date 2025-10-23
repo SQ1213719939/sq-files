@@ -94,7 +94,7 @@ pip list --format=freeze >requirement.txt
   - //python=3.10.19, pytorch=2.7.1+cu118
   - 安装PyTorch：
   - pip install torch==2.7.1 torchvision==0.22.1 torchaudio==2.7.1 --index-url https://download.pytorch.org/whl/cu118
-  - 安装pyg包：
+  - 安装pyg包（https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html，进入run内链接手动下载）：
   - pip install /home/sunqi/torch_scatter-2.1.2+pt27cu118-cp310-cp310-linux_x86_64.whl
   - pip install /home/sunqi/torch_sparse-0.6.18+pt27cu118-cp310-cp310-linux_x86_64.whl
   - pip install /home/sunqi/torch_spline_conv-1.2.2+pt27cu118-cp310-cp310-linux_x86_64.whl
