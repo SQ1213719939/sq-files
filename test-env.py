@@ -10,9 +10,10 @@ print("CUDA 是否可用:", torch.cuda.is_available())
 print("GPU 数量:", torch.cuda.device_count())
 print("GPU 名称:", torch.cuda.get_device_name(0))
 
-import numpy
-import scipy
-import sklearn
-print('NumPy版本:', numpy.__version__)
-print('SciPy版本:', scipy.__version__)
-print('scikit-learn版本:', sklearn.__version__)
+# import numpy
+# import scipy
+# import sklearn
+# print('NumPy版本:', numpy.__version__)
+# print('SciPy版本:', scipy.__version__)
+# print('scikit-learn版本:', sklearn.__version__)
+
