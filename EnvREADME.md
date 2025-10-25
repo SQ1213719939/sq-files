@@ -1,7 +1,5 @@
 # Environment 帮助文档
 
-
-
 ## 一、 服务器命令
 ```
 gpustat -pui
@@ -11,6 +9,7 @@ tmux new -s sq
 tmux attach -t sq
 tmux kill-session -t sq
 tmux list-sessions
+kill -9 进程号
 
 python test.py
 bash run.sh
@@ -22,7 +21,7 @@ unset CUDA_VISIBLE_DEVICES
 git clone HTTPS链接/SSH链接
 wget -P 保存路径 下载网址
 
-unzip ***.zip
+unzip ***.zip -d 保存路径
 gunzip ***.gz
 ```
 
@@ -146,7 +145,7 @@ pip list --format=freeze >requirement.txt
 ## 七、GPU与pytorch
 - nvidia-smi
 - 天选：
-  - NVIDIA GeForce RTX 3050 Ti (4G显存)
+  - NVIDIA GeForce RTX 3050 Ti (4G显存)nvi
   - NVIDIA-SMI 566.07 / Driver Version: 566.07 / CUDA Version: 12.7  
 - 工位：
   - NVIDIA GeForce RTX 3060 (12G显存)
