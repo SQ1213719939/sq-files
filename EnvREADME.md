@@ -146,8 +146,8 @@ pip list --format=freeze >requirement.txt
 ## 七、GPU与pytorch
 - nvidia-smi
 - 天选：
-  - NVIDIA GeForce RTX 3050 Ti (阵亡)
-  - NVIDIA-SMI 555.97 / Driver Version: 555.97 / CUDA Version: 12.5
+  - NVIDIA GeForce RTX 3050 Ti (4G显存)
+  - NVIDIA-SMI 566.07 / Driver Version: 566.07 / CUDA Version: 12.7  
 - 工位：
   - NVIDIA GeForce RTX 3060 (12G显存)
   - NVIDIA-SMI 572.96 / Driver Version: 572.96 / CUDA Version: 12.8
