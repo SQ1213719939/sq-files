@@ -50,7 +50,11 @@ git pull origin master
 git push -u origin master
 git push
 
-6. 配置 SSH 密钥
+6.回退历史
+git log --oneline -5
+git reset --hard 要回退到的某状态的id
+
+7. 配置 SSH 密钥
 ssh-keygen -t ed25519 -C "1213719939@qq.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
