@@ -33,32 +33,34 @@ gunzip ***.gz
 git config --global user.email "1213719939@qq.com"
 git config --global user.name "SQ1213719939"
 
-2. 进入项目并初始化
+2. 进入项目并初始化，执行一次即可
 cd 项目名
 git init
 
-3. 关联远程仓库
+3. 关联远程仓库，执行一次即可
 git remote add origin git@github.com:SQ1213719939/项目名.git
 
-4. 添加文件并提交
+4. 拉取
+git pull origin master
+
+5. 添加文件并提交
 git add 文件名
 git status
 git commit -m ""
 
-5. 拉取与推送
-git pull origin master
+6.推送
 git push -u origin master
 git push
 
-6.回退历史
+7.回退历史
 git log --oneline -5
 git reset --hard 要回退到的某状态的id
 
-7. 配置 SSH 密钥
+8. 配置 SSH 密钥
 ssh-keygen -t ed25519 -C "1213719939@qq.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
-cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub（复制SSH）
 ssh -T git@github.com
 ```
 
