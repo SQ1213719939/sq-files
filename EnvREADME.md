@@ -49,8 +49,8 @@ git status
 git commit -m ""
 
 6.推送
-git push -u origin master
-git push
+git push -u origin master（首次推送时使用）
+git push（之后推送时使用）
 
 7.回退历史
 git log --oneline -5
@@ -128,9 +128,9 @@ pip list --format=freeze >requirement.txt
 
 
 ## 五、 服务器账号
-1. IP：210.30.97.55
-2. IP：210.30.97.215
-3. IP：210.30.97.92
+1. 55服务器IP：210.30.97.55
+2. 215服务器 IP：210.30.97.215
+3. L20服务器IP：210.30.97.92
 4. Port：51666
 5. VPN：v.dlut.edu.cn
 
